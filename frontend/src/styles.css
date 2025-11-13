@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+:root{
+    /*Cores principais*/
+
+    --color-primary: #1C4E5E; /*cor para botoes, links e detalhes importantes*/
+    --secondary-color: #E6D5B8; /*cor de fundo para secoes e elementos suaves*/
+    --neutral-color: #F8F8F8; /*cor de background geral*/
+    --neutral-drk-color: #D97B66; /*cor para destaques, hover e promoçoes*/
+    --feedback-positive-color: #9DBF9E;/*cor para feedbacks positivos*/
+    --feedback-negative-color: #C94C4C;/*cor para feedbacks negativos*/ 
+    
+
+}
