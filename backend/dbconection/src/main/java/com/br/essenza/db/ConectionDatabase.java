@@ -1,9 +1,9 @@
-package org.example;
+package com.br.essenza.db;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Api {
+public class ConectionDatabase {
     public static void main(String[] args) {
         try{
             Connection conn = DriverManager.getConnection(
