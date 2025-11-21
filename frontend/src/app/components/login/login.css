@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.container_login {
+    @apply min-h-screen w-full flex items-center justify-center bg-blue-200;
+}
+
+.login_auth {
+    @apply flex w-full max-w-sm bg-white rounded-xl shadow-lg border border-slate-200 p-6
+}
+
+.form_login {
+    @apply flex   flex-col gap-4
+}
