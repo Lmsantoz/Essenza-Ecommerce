@@ -1,1 +1,21 @@
-<p>login works!</p>
+<div class="container_login">
+    <!--form de login-->
+    <div class="login_auth">
+        <form action="" class="form_login">
+            <!--input de email-->
+            <label for="email" class="login_mail">Email</label>
+            <input type="email" name="email" id="email" placeholder="@mail.com">
+            <!--input de senha-->
+            <label for="password" class="login_password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Password">
+            <div class="link_login">
+                <!--link para tela de cadastro-->
+                <a routerLink="/cadastro" class="cadastrar">Cadastre-se</a>
+                <!--link de esqueceu a senha-->
+                <a href="**" class="esqueceu_senha">Esqueceu a senha?</a>
+            </div>
+            <!--botao para validar-->
+            <button disabled="disabled" class="botao_login">Entrar</button>
+        </form>
+    </div>
+</div>
