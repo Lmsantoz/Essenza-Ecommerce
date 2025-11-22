@@ -1,1 +1,27 @@
-<p>cadastro works!</p>
+<div class="container_cadastro">
+    <!--form de cadastro-->
+    <div class="cadastro_auth">
+        <form action="" class="form_cadastro">
+            <!--input de user_name-->
+            <label for="user_name" class="cadastro_mail">Nome de usuário</label>
+            <input type="text" name="user_name" id="user_name" placeholder="Username">
+            <!--input de CPF-->
+            <label for="CPF" class="cadastro_mail">CPF</label>
+            <input type="number" name="CPF" id="CPF" placeholder="111.222.333.45">
+            <!--input de email-->
+            <label for="email" class="cadastro_mail">Email</label>
+            <input type="email" name="email" id="email" placeholder="@mail.com">
+            <!--input de senha-->
+            <label for="password" class="cadastro_password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Password">
+            <div class="link_cadastro">
+                <!--link para tela de cadastro-->
+                <a routerLink="/cadastro" class="cadastrar">Cadastre-se</a>
+                <!--link de esqueceu a senha-->
+                <a href="**" class="esqueceu_senha">Esqueceu a senha?</a>
+            </div>
+            <!--botao para validar-->
+            <button disabled="disabled" class="botao_cadastro">Entrar</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.container_cadastro {
+    @apply min-h-screen w-full flex items-center justify-center bg-orange-50;
+}
+
+.cadastro_auth {
+    @apply flex w-full max-w-sm  bg-white rounded-xl shadow-lg border border-slate-200 p-6
+}
+
+.form_cadastro {
+    @apply flex w-full flex-col justify-center  gap-4
+}
+
+.botao_cadastro {
+    @apply bg-blue-400 rounded-md p-3 text-white hover:bg-blue-500 duration-300 ease-linear
+}
+
+.form_cadastro input {
+    @apply rounded-xl shadow-lg  p-3 placeholder-gray-400
+}
+
+.link_cadastro a {
+    @apply  text-blue-500 self-center 
+}
+
+.link_cadastro {
+    @apply flex place-content-between
+}
+
+
